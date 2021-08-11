@@ -1,0 +1,55 @@
+
+##### new environment ##################### 
+
+python -m venv NAME\venv
+
+python -m venv NAME\venv --system-site-pakages
+
+
+where python
+
+pip list
+pip list --local # only user installed
+
+pip freeze
+
+
+rmdir NAME /s # to delete
+
+
+pip install -r FILE NAME from FREEZE command
+
+
+
+##### Git  ####################
+
+
+git init
+
+touch FILENAME
+
+git add . # add all files
+
+git status
+
+git commit -m "first change"
+
+git branch NAME NEW BRANCH # new branch 
+
+git checkout login # switch to new branch
+
+git merge BRANCH # add all files from BRANCH and overwrite all files 
+
+
+git remote
+git remote add tutor https://github.com/RomanRes/test.git
+git push -u tutor main
+
+
+git config --global user.name NAME # who commited
+git config --global user.email EMAIL # who commited
+
+
+
+
+
